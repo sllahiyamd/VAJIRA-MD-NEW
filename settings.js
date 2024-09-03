@@ -5,11 +5,11 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,   
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=OVEU0RQZ#H1bDejvw5zo6dFpBbvCz8Ta6i3TajrOJZ904eB4PAI4' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '+94710756748' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
-AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
+AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,    
 PREFIX: process.env.PREFIX || '.' ,
 FOOTER: process.env.FOOTER=== undefined ? '‌👨‍💻 ᴠᴀᴊɪʀᴀ ᴍᴅ ʙʏ ᴛᴄ ᴛᴇᴀᴍ 👨‍💻': process.env.FOOTER,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
@@ -19,7 +19,7 @@ OWNER_REACT:  process.env.OWNER_REACT  || true  ,
 ADMIN_EVENT:  process.env.ADMIN_EVENT  || true  ,   
 AUTO_BLOCK:  process.env.AUTO_BLOCK  || false  ,        
 AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
-AUTO_STICKER: process.env.AUTO_STICKER || false  ,    
+AUTO_STICKER: process.env.AUTO_STICKER || true  ,    
 ANTI_BAD: process.env.ANTI_BAD || false  ,
 AUTO_REACT:  process.env.AUTO_REACT  || false  ,    
 AUTO_TYPING:  process.env.AUTO_TYPING  || false  ,
